@@ -38,7 +38,7 @@ var democontent = <div id='content'>some demo HTML</div>;
 
 ### Demo ###
 
-demo: http://codepen.io/dtasic/pen/zvJvRj
+http://codepen.io/dtasic/pen/zvJvRj
 
 ### Who do I talk to? ###
 

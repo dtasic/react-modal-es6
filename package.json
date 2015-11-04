@@ -1,6 +1,21 @@
 {
-  "name": "github-react-modal-es6",
+  "name": "react-modal-es6",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://dtasic@github.com/dtasic/react-modal-es6.git"
+  },
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "author": "Dejan Tasic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtasic/react-modal-es6/issues"
+  },
+  "homepage": "https://github.com/dtasic/react-modal-es6#readme",
+  "description": "ReactJS Modal component",
   "dependencies": {},
   "devDependencies": {
     "babelify": "^6.0.2",
