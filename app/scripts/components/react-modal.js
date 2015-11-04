@@ -46,7 +46,7 @@ export default class Modal extends React.Component {
       display: 'none'
     }
   }
-  
+
   componentWillMount() {
 	this.props.openbtn || this.showModal();
   }
