@@ -1,4 +1,8 @@
-.*
+# generated files #
+.bowerrc
+.editorconfig
+.yo-rc.json
+
 node_modules/
 dist/
 .sass-cache/
