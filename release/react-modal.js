@@ -48,7 +48,7 @@ export default class Modal extends React.Component {
   }
 
   componentWillMount() {
-	this.props.openbtn || this.showModal();
+    this.props.openbtn || this.showModal();
   }
 
   showModal() {
@@ -70,10 +70,10 @@ export default class Modal extends React.Component {
 	if (this.props.openbtn) { var button = <button id='modal-open-btn' onClick={this.showModal.bind(this)}>{(this.props.opentext) ? this.props.opentext : 'Open modal' }</button>; }
     return (
       <span>
-		{button}
+        {button}
         <div id="modal" style={this.state} onClick={this.closeOnBackground.bind(this)}>
           <span className="modal-close" onClick={this.hideModal.bind(this)}>x</span>
-			{(this.props.content && this.props.content)}
+          {(this.props.content && this.props.content)}
         </div>
       </span>
     );
