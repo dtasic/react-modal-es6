@@ -2,6 +2,7 @@
   "name": "react-modal-es6",
   "version": "0.0.0",
   "homepage": "https://github.com/dtasic/react-modal-es6#readme",
+  "main":"./release/react-modal.js",
   "authors": [
     "Dejan Tasic <dtasic@gmail.com>"
   ],

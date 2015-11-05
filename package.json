@@ -5,6 +5,7 @@
     "type": "git",
     "url": "git+https://dtasic@github.com/dtasic/react-modal-es6.git"
   },
+  "main":"./release/react-modal.js",
   "keywords": [
     "react",
     "modal"
