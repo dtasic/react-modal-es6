@@ -1,6 +1,6 @@
 # react-modal.js #
 
-ReactJS Modal component (wtitten in ES6 classes)
+ReactJS Modal component (ES6 class)
 
 ### What is this repository? ###
 
