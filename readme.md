@@ -13,6 +13,10 @@ ReactJS Modal component (wtitten in ES6 classes)
 
 ### Usage ###
 
+* param openbtn={bool} - set if component will show button for opening modal. If set to false (or absent) modal will open automatically.
+* param opentext={bool} - text for open button
+* param content={variavle or other component} - content for modal
+
 * passing variable as content:
 ```
 var democontent = <div id='content'>some demo HTML</div>;
