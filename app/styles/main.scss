@@ -5,6 +5,8 @@ body {
   color: #333;
 }
 
+/*-------- modal styling --------- */
+
 #modal {
   position: fixed;
   top: 0;
@@ -37,12 +39,16 @@ body {
   color: red;
 }
 
+
+/*-------- content styling --------- */
+
 #content {
-	display: inline-block;
+  width: 500px;
+	display: block;
 	color: white;
-	position: absolute;
-	top: 150px;
-	left: 150px;
+	position: relative;
+	margin: 100px auto;
 	padding: 30px;
 	border: 1px solid white;
+  background: rgba(0,0,0,0.25);
 }
