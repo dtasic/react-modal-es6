@@ -1,11 +1,11 @@
 {
   "name": "react-modal-es6",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://dtasic@github.com/dtasic/react-modal-es6.git"
   },
-  "main":"./release/react-modal.js",
+  "main": "./release/react-modal.js",
   "keywords": [
     "react",
     "modal"
