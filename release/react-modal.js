@@ -67,12 +67,12 @@ export default class Modal extends React.Component {
 
   render() {
 	var button;
-	if (this.props.openbtn) { var button = <button id='modal-open-btn' onClick={this.showModal.bind(this)}>{(this.props.opentext) ? this.props.opentext : 'Open modal' }</button>; }
+	if (this.props.openbtn) { var button = <button id='modal-open-btn' onClick={(e) => this.showModal(e)}>{(this.props.opentext) ? this.props.opentext : 'Open modal' }</button>; }
     return (
       <span>
         {button}
-        <div id="modal" style={this.state} onClick={this.closeOnBackground.bind(this)}>
-          <span className="modal-close" onClick={this.hideModal.bind(this)}>x</span>
+        <div id="modal" style={this.state} onClick={(e) => this.closeOnBackground(e)} >
+          <span className="modal-close" onClick={(e) => this.hideModal(e)}>x</span>
           {(this.props.content && this.props.content)}
         </div>
       </span>

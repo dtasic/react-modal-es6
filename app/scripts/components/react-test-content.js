@@ -8,7 +8,7 @@ export default class Test extends React.Component {
 
   render() {
     return (
-		<span id='content'>some other componenet as content for modal 2 passed via prop with {this.props.someprop}</span>
+		    <span id='content'>some other componenet as content for modal 2 passed via prop with {this.props.someprop}</span>
     );
   }
 }
