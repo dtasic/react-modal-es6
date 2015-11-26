@@ -60,7 +60,7 @@ export default class Modal extends React.Component {
   }
 
   closeOnBackground(e){
-    if( e.target.id == 'modal' || e.which === "27") {
+    if( e.target.id == 'modal') {
       this.hideModal();
     }
   }
