@@ -17,23 +17,13 @@ ReactJS Modal component (ES6 class)
 * param opentext={bool} - text for open button
 * param content={variable or other component} - content for modal
 
-* passing variable as content:
+* passing content to modal:
 ```
 var democontent = <div id='content'>some demo HTML</div>;
 <Modal
   openbtn={true}
   opentext="open modal 1"
   content={democontent}
-/>
-
-```
-
-* passing other react component as content:
-```
-<Modal
-  openbtn={true}
-  opentext="open modal 2"
-  content=<TestContent someprop='(test prop value)'/>
 />
 
 ```
